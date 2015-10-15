@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0A081C1BC7559F003E7333 /* TESlidingPageViewIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A081B1BC7559F003E7333 /* TESlidingPageViewIcon.m */; settings = {ASSET_TAGS = (); }; };
+		1C0A081F1BC770F9003E7333 /* UIColor+CrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A081E1BC770F9003E7333 /* UIColor+CrossFade.m */; settings = {ASSET_TAGS = (); }; };
+		1C0A08241BC939FB003E7333 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08211BC939FB003E7333 /* 2.png */; settings = {ASSET_TAGS = (); }; };
+		1C0A08251BC939FB003E7333 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08221BC939FB003E7333 /* 1.png */; settings = {ASSET_TAGS = (); }; };
+		1C0A08261BC939FB003E7333 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08231BC939FB003E7333 /* 0.png */; settings = {ASSET_TAGS = (); }; };
+		1CD47D741BC59471002BB2CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D731BC59471002BB2CB /* main.m */; };
+		1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D761BC59471002BB2CB /* AppDelegate.m */; };
+		1CD47D7A1BC59471002BB2CB /* TESlidingPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D791BC59471002BB2CB /* TESlidingPageView.m */; };
+		1CD47D7F1BC59471002BB2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD47D7E1BC59471002BB2CB /* Assets.xcassets */; };
+		1CD47D821BC59471002BB2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0A081A1BC7559F003E7333 /* TESlidingPageViewIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingPageViewIcon.h; sourceTree = "<group>"; };
+		1C0A081B1BC7559F003E7333 /* TESlidingPageViewIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingPageViewIcon.m; sourceTree = "<group>"; };
+		1C0A081D1BC770F9003E7333 /* UIColor+CrossFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CrossFade.h"; sourceTree = "<group>"; };
+		1C0A081E1BC770F9003E7333 /* UIColor+CrossFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CrossFade.m"; sourceTree = "<group>"; };
+		1C0A08211BC939FB003E7333 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		1C0A08221BC939FB003E7333 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		1C0A08231BC939FB003E7333 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		1CD47D6F1BC59471002BB2CB /* TinderPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD47D731BC59471002BB2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CD47D751BC59471002BB2CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CD47D761BC59471002BB2CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CD47D781BC59471002BB2CB /* TESlidingPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESlidingPageView.h; sourceTree = "<group>"; };
+		1CD47D791BC59471002BB2CB /* TESlidingPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESlidingPageView.m; sourceTree = "<group>"; };
+		1CD47D7E1BC59471002BB2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CD47D811BC59471002BB2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CD47D831BC59471002BB2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CD47D6C1BC59471002BB2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAB53D21BC6EEBB003CC4B6 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				1C0A08211BC939FB003E7333 /* 2.png */,
+				1C0A08221BC939FB003E7333 /* 1.png */,
+				1C0A08231BC939FB003E7333 /* 0.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		1CD47D661BC59471002BB2CB = {
+			isa = PBXGroup;
+			children = (
+				1CD47D711BC59471002BB2CB /* TinderPageView */,
+				1CD47D701BC59471002BB2CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CD47D701BC59471002BB2CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CD47D6F1BC59471002BB2CB /* TinderPageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CD47D711BC59471002BB2CB /* TinderPageView */ = {
+			isa = PBXGroup;
+			children = (
+				1CD47D751BC59471002BB2CB /* AppDelegate.h */,
+				1CD47D761BC59471002BB2CB /* AppDelegate.m */,
+				1CD47D781BC59471002BB2CB /* TESlidingPageView.h */,
+				1CD47D791BC59471002BB2CB /* TESlidingPageView.m */,
+				1C0A081A1BC7559F003E7333 /* TESlidingPageViewIcon.h */,
+				1C0A081B1BC7559F003E7333 /* TESlidingPageViewIcon.m */,
+				1C0A081D1BC770F9003E7333 /* UIColor+CrossFade.h */,
+				1C0A081E1BC770F9003E7333 /* UIColor+CrossFade.m */,
+				1CAB53D21BC6EEBB003CC4B6 /* icons */,
+				1CD47D7E1BC59471002BB2CB /* Assets.xcassets */,
+				1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */,
+				1CD47D831BC59471002BB2CB /* Info.plist */,
+				1CD47D721BC59471002BB2CB /* Supporting Files */,
+			);
+			path = TinderPageView;
+			sourceTree = "<group>";
+		};
+		1CD47D721BC59471002BB2CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD47D731BC59471002BB2CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CD47D6E1BC59471002BB2CB /* TinderPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageView" */;
+			buildPhases = (
+				1CD47D6B1BC59471002BB2CB /* Sources */,
+				1CD47D6C1BC59471002BB2CB /* Frameworks */,
+				1CD47D6D1BC59471002BB2CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderPageView;
+			productName = TinderPageView;
+			productReference = 1CD47D6F1BC59471002BB2CB /* TinderPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CD47D671BC59471002BB2CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Timothy Edwards";
+				TargetAttributes = {
+					1CD47D6E1BC59471002BB2CB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CD47D661BC59471002BB2CB;
+			productRefGroup = 1CD47D701BC59471002BB2CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CD47D6E1BC59471002BB2CB /* TinderPageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CD47D6D1BC59471002BB2CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD47D821BC59471002BB2CB /* LaunchScreen.storyboard in Resources */,
+				1CD47D7F1BC59471002BB2CB /* Assets.xcassets in Resources */,
+				1C0A08261BC939FB003E7333 /* 0.png in Resources */,
+				1C0A08241BC939FB003E7333 /* 2.png in Resources */,
+				1C0A08251BC939FB003E7333 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CD47D6B1BC59471002BB2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0A081C1BC7559F003E7333 /* TESlidingPageViewIcon.m in Sources */,
+				1CD47D7A1BC59471002BB2CB /* TESlidingPageView.m in Sources */,
+				1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */,
+				1CD47D741BC59471002BB2CB /* main.m in Sources */,
+				1C0A081F1BC770F9003E7333 /* UIColor+CrossFade.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CD47D811BC59471002BB2CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CD47D841BC59471002BB2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CD47D851BC59471002BB2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CD47D871BC59471002BB2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinderPageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TimothyEdwards.TinderPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CD47D881BC59471002BB2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinderPageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TimothyEdwards.TinderPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD47D841BC59471002BB2CB /* Debug */,
+				1CD47D851BC59471002BB2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD47D871BC59471002BB2CB /* Debug */,
+				1CD47D881BC59471002BB2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CD47D671BC59471002BB2CB /* Project object */;
+}
