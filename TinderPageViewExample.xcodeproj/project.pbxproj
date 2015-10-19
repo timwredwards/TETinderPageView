@@ -7,32 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C0A081C1BC7559F003E7333 /* TESlidingPageViewIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A081B1BC7559F003E7333 /* TESlidingPageViewIcon.m */; settings = {ASSET_TAGS = (); }; };
-		1C0A081F1BC770F9003E7333 /* UIColor+CrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A081E1BC770F9003E7333 /* UIColor+CrossFade.m */; settings = {ASSET_TAGS = (); }; };
 		1C0A08241BC939FB003E7333 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08211BC939FB003E7333 /* 2.png */; settings = {ASSET_TAGS = (); }; };
 		1C0A08251BC939FB003E7333 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08221BC939FB003E7333 /* 1.png */; settings = {ASSET_TAGS = (); }; };
 		1C0A08261BC939FB003E7333 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08231BC939FB003E7333 /* 0.png */; settings = {ASSET_TAGS = (); }; };
+		1C9E01501BD579C300F324BB /* TEColorCrossfade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01491BD579C300F324BB /* TEColorCrossfade.m */; settings = {ASSET_TAGS = (); }; };
+		1C9E01511BD579C300F324BB /* TESlidingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E014B1BD579C300F324BB /* TESlidingButton.m */; settings = {ASSET_TAGS = (); }; };
+		1C9E01521BD579C300F324BB /* TESlidingButtonSpecifics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E014D1BD579C300F324BB /* TESlidingButtonSpecifics.m */; settings = {ASSET_TAGS = (); }; };
+		1C9E01531BD579C300F324BB /* TESlidingPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E014F1BD579C300F324BB /* TESlidingPageView.m */; settings = {ASSET_TAGS = (); }; };
 		1CD47D741BC59471002BB2CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D731BC59471002BB2CB /* main.m */; };
 		1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D761BC59471002BB2CB /* AppDelegate.m */; };
-		1CD47D7A1BC59471002BB2CB /* TESlidingPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D791BC59471002BB2CB /* TESlidingPageView.m */; };
 		1CD47D7F1BC59471002BB2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD47D7E1BC59471002BB2CB /* Assets.xcassets */; };
 		1CD47D821BC59471002BB2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C0A081A1BC7559F003E7333 /* TESlidingPageViewIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingPageViewIcon.h; sourceTree = "<group>"; };
-		1C0A081B1BC7559F003E7333 /* TESlidingPageViewIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingPageViewIcon.m; sourceTree = "<group>"; };
-		1C0A081D1BC770F9003E7333 /* UIColor+CrossFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CrossFade.h"; sourceTree = "<group>"; };
-		1C0A081E1BC770F9003E7333 /* UIColor+CrossFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CrossFade.m"; sourceTree = "<group>"; };
 		1C0A08211BC939FB003E7333 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		1C0A08221BC939FB003E7333 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		1C0A08231BC939FB003E7333 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
-		1CD47D6F1BC59471002BB2CB /* TinderPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9E01481BD579C300F324BB /* TEColorCrossfade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEColorCrossfade.h; sourceTree = SOURCE_ROOT; };
+		1C9E01491BD579C300F324BB /* TEColorCrossfade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEColorCrossfade.m; sourceTree = SOURCE_ROOT; };
+		1C9E014A1BD579C300F324BB /* TESlidingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingButton.h; sourceTree = SOURCE_ROOT; };
+		1C9E014B1BD579C300F324BB /* TESlidingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingButton.m; sourceTree = SOURCE_ROOT; };
+		1C9E014C1BD579C300F324BB /* TESlidingButtonSpecifics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingButtonSpecifics.h; sourceTree = SOURCE_ROOT; };
+		1C9E014D1BD579C300F324BB /* TESlidingButtonSpecifics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingButtonSpecifics.m; sourceTree = SOURCE_ROOT; };
+		1C9E014E1BD579C300F324BB /* TESlidingPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingPageView.h; sourceTree = SOURCE_ROOT; };
+		1C9E014F1BD579C300F324BB /* TESlidingPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingPageView.m; sourceTree = SOURCE_ROOT; };
+		1CD47D6F1BC59471002BB2CB /* TinderPageViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderPageViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD47D731BC59471002BB2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CD47D751BC59471002BB2CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CD47D761BC59471002BB2CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1CD47D781BC59471002BB2CB /* TESlidingPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESlidingPageView.h; sourceTree = "<group>"; };
-		1CD47D791BC59471002BB2CB /* TESlidingPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESlidingPageView.m; sourceTree = "<group>"; };
 		1CD47D7E1BC59471002BB2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD47D811BC59471002BB2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CD47D831BC59471002BB2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,7 +73,7 @@
 		1CD47D701BC59471002BB2CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CD47D6F1BC59471002BB2CB /* TinderPageView.app */,
+				1CD47D6F1BC59471002BB2CB /* TinderPageViewExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,19 +83,22 @@
 			children = (
 				1CD47D751BC59471002BB2CB /* AppDelegate.h */,
 				1CD47D761BC59471002BB2CB /* AppDelegate.m */,
-				1CD47D781BC59471002BB2CB /* TESlidingPageView.h */,
-				1CD47D791BC59471002BB2CB /* TESlidingPageView.m */,
-				1C0A081A1BC7559F003E7333 /* TESlidingPageViewIcon.h */,
-				1C0A081B1BC7559F003E7333 /* TESlidingPageViewIcon.m */,
-				1C0A081D1BC770F9003E7333 /* UIColor+CrossFade.h */,
-				1C0A081E1BC770F9003E7333 /* UIColor+CrossFade.m */,
+				1C9E014E1BD579C300F324BB /* TESlidingPageView.h */,
+				1C9E014F1BD579C300F324BB /* TESlidingPageView.m */,
+				1C9E014A1BD579C300F324BB /* TESlidingButton.h */,
+				1C9E014B1BD579C300F324BB /* TESlidingButton.m */,
+				1C9E014C1BD579C300F324BB /* TESlidingButtonSpecifics.h */,
+				1C9E014D1BD579C300F324BB /* TESlidingButtonSpecifics.m */,
+				1C9E01481BD579C300F324BB /* TEColorCrossfade.h */,
+				1C9E01491BD579C300F324BB /* TEColorCrossfade.m */,
 				1CAB53D21BC6EEBB003CC4B6 /* icons */,
 				1CD47D7E1BC59471002BB2CB /* Assets.xcassets */,
 				1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */,
 				1CD47D831BC59471002BB2CB /* Info.plist */,
 				1CD47D721BC59471002BB2CB /* Supporting Files */,
 			);
-			path = TinderPageView;
+			name = TinderPageView;
+			path = TinderPageViewExample;
 			sourceTree = "<group>";
 		};
 		1CD47D721BC59471002BB2CB /* Supporting Files */ = {
@@ -106,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CD47D6E1BC59471002BB2CB /* TinderPageView */ = {
+		1CD47D6E1BC59471002BB2CB /* TinderPageViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageView" */;
+			buildConfigurationList = 1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageViewExample" */;
 			buildPhases = (
 				1CD47D6B1BC59471002BB2CB /* Sources */,
 				1CD47D6C1BC59471002BB2CB /* Frameworks */,
@@ -118,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = TinderPageView;
+			name = TinderPageViewExample;
 			productName = TinderPageView;
-			productReference = 1CD47D6F1BC59471002BB2CB /* TinderPageView.app */;
+			productReference = 1CD47D6F1BC59471002BB2CB /* TinderPageViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageView" */;
+			buildConfigurationList = 1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CD47D6E1BC59471002BB2CB /* TinderPageView */,
+				1CD47D6E1BC59471002BB2CB /* TinderPageViewExample */,
 			);
 		};
 /* End PBXProject section */
@@ -175,11 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0A081C1BC7559F003E7333 /* TESlidingPageViewIcon.m in Sources */,
-				1CD47D7A1BC59471002BB2CB /* TESlidingPageView.m in Sources */,
+				1C9E01521BD579C300F324BB /* TESlidingButtonSpecifics.m in Sources */,
+				1C9E01531BD579C300F324BB /* TESlidingPageView.m in Sources */,
 				1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */,
+				1C9E01501BD579C300F324BB /* TEColorCrossfade.m in Sources */,
 				1CD47D741BC59471002BB2CB /* main.m in Sources */,
-				1C0A081F1BC770F9003E7333 /* UIColor+CrossFade.m in Sources */,
+				1C9E01511BD579C300F324BB /* TESlidingButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +290,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TinderPageView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TinderPageViewExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TimothyEdwards.TinderPageView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TinderPageViewExample;
 			};
 			name = Debug;
 		};
@@ -295,18 +302,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TinderPageView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TinderPageViewExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TimothyEdwards.TinderPageView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TinderPageViewExample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageView" */ = {
+		1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CD47D841BC59471002BB2CB /* Debug */,
@@ -315,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageView" */ = {
+		1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CD47D871BC59471002BB2CB /* Debug */,

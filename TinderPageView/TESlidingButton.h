@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface TEPagingViewIcon : UIButton
+@interface TESlidingButton : UIButton
 
-@property CGSize iconSize;
-@property UIOffset iconOffset;
+@property CGSize buttonSize;
 
 @end

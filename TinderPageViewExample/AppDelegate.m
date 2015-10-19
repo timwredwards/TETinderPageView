@@ -22,25 +22,34 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     UIViewController *page1 = [[UIViewController alloc] init];
-    [page1.view setBackgroundColor:[UIColor redColor]];
+    [page1.view setBackgroundColor:[UIColor lightGrayColor]];
     
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(50, 10, 100, 50)];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 150, 50)];
+    [button setCenter:page1.view.center];
     [button setBackgroundColor:[UIColor blackColor]];
-    [button setTitle:@"Change" forState:UIControlStateNormal];
+    [button setTitle:@"Go To Page 3" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
     [page1.view addSubview:button];
-
     
     UIViewController *page2 = [[UIViewController alloc] init];
-    [page2.view setBackgroundColor:[UIColor greenColor]];
+    [page2.view setBackgroundColor:[UIColor orangeColor]];
     
     UIViewController *page3 = [[UIViewController alloc] init];
     [page3.view setBackgroundColor:[UIColor blueColor]];
     
-    pageView = [[TESlidingPageView alloc] init];
-    [pageView setViewControllers:@[page1, page2, page3]];
-    [pageView setIconImages:@[[UIImage imageNamed:@"0.png"], [UIImage imageNamed:@"1.png"], [UIImage imageNamed:@"2.png"]]];
+    NSArray *viewControllers = @[page1, page2, page3];
+    NSArray *images = @[[UIImage imageNamed:@"0.png"], [UIImage imageNamed:@"1.png"], [UIImage imageNamed:@"2.png"]];
+    pageView = [[TESlidingPageView alloc] initWithViewControllers:viewControllers buttonImages:images];
     
+    // side icons
+    [pageView.offscreenLeftButtonSpecifics setColor:[UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0]];
+    [pageView.leftButtonSpecifics setColor:[UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0]];
+    [pageView.rightButtonSpecifics setColor:[UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0]];
+    [pageView.offscreenRightButtonSpecifics setColor:[UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0]];
+    
+    // center icon
+    [pageView.centerButtonSpecifics setColor:[[UIColor alloc] initWithRed:255.0/255.0 green:106.0/255.0 blue:79.0/255.0 alpha:1.0]];
+    [pageView.centerButtonSpecifics setSize:CGSizeMake(35, 35)];
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     self.window.rootViewController = pageView;

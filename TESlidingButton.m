@@ -6,15 +6,15 @@
 //  Copyright © 2015 Timothy Edwards. All rights reserved.
 //
 
-#import "TESlidingPageViewIcon.h"
+#import "TESlidingButton.h"
 
-@implementation TEPagingViewIcon
+@implementation TESlidingButton
 
--(void)setIconSize:(CGSize)iconSize{
+-(void)setButtonSize:(CGSize)iconSize{
     [self setFrame:CGRectMake(self.frame.origin.x, self.frame.origin.y, iconSize.width, iconSize.height)];
 }
 
--(CGSize)iconSize{
+-(CGSize)buttonSize{
     return self.frame.size;
 }
 
