@@ -25,4 +25,4 @@ Requires ARC to be enabled
 If you encounter problems or have a feature request please open an issue! We welcome pull requests, so if you feel like contributing get involved!
 
 <h3>Author</h3>
-Developed and maintained by ([Tim Edwards](http://timwredwards.com)) ([@timwredwards](https://twitter.com/timwredwards))
+Developed and maintained by [Tim Edwards](http://timwredwards.com) ([@timwredwards](https://twitter.com/timwredwards))
