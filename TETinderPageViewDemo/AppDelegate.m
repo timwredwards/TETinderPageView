@@ -8,10 +8,10 @@
 
 #import "AppDelegate.h"
 
-#import "TESlidingPageView.h"
+#import "TETinderPageView.h"
 
 @interface AppDelegate (){
-    TESlidingPageView *pageView;
+    TETinderPageView *pageView;
 }
 
 @end
@@ -39,7 +39,7 @@
     
     NSArray *viewControllers = @[page1, page2, page3];
     NSArray *images = @[[UIImage imageNamed:@"0.png"], [UIImage imageNamed:@"1.png"], [UIImage imageNamed:@"2.png"]];
-    pageView = [[TESlidingPageView alloc] initWithViewControllers:viewControllers buttonImages:images];
+    pageView = [[TETinderPageView alloc] initWithViewControllers:viewControllers buttonImages:images];
     
     // side icons
     [pageView.offscreenLeftButtonSpecifics setColor:[UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0]];

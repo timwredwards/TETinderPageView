@@ -10,10 +10,14 @@
 		1C0A08241BC939FB003E7333 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08211BC939FB003E7333 /* 2.png */; settings = {ASSET_TAGS = (); }; };
 		1C0A08251BC939FB003E7333 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08221BC939FB003E7333 /* 1.png */; settings = {ASSET_TAGS = (); }; };
 		1C0A08261BC939FB003E7333 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08231BC939FB003E7333 /* 0.png */; settings = {ASSET_TAGS = (); }; };
-		1C9E01501BD579C300F324BB /* TEColorCrossfade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01491BD579C300F324BB /* TEColorCrossfade.m */; settings = {ASSET_TAGS = (); }; };
-		1C9E01511BD579C300F324BB /* TESlidingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E014B1BD579C300F324BB /* TESlidingButton.m */; settings = {ASSET_TAGS = (); }; };
-		1C9E01521BD579C300F324BB /* TESlidingButtonSpecifics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E014D1BD579C300F324BB /* TESlidingButtonSpecifics.m */; settings = {ASSET_TAGS = (); }; };
-		1C9E01531BD579C300F324BB /* TESlidingPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E014F1BD579C300F324BB /* TESlidingPageView.m */; settings = {ASSET_TAGS = (); }; };
+		1C9E01611BD57D0000F324BB /* TETinderButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01551BD57C9900F324BB /* TETinderButton.h */; };
+		1C9E01621BD57D0000F324BB /* TETinderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01561BD57C9900F324BB /* TETinderButton.m */; };
+		1C9E01631BD57D0000F324BB /* TETinderButtonSpecifics.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01571BD57C9900F324BB /* TETinderButtonSpecifics.h */; };
+		1C9E01641BD57D0000F324BB /* TETinderButtonSpecifics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01581BD57C9900F324BB /* TETinderButtonSpecifics.m */; };
+		1C9E01651BD57D0000F324BB /* TETinderPageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01591BD57C9900F324BB /* TETinderPageView.h */; };
+		1C9E01661BD57D0000F324BB /* TETinderPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E015A1BD57C9900F324BB /* TETinderPageView.m */; };
+		1C9E01671BD57D0000F324BB /* TEColorCrossfade.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E015E1BD57CB500F324BB /* TEColorCrossfade.h */; };
+		1C9E01681BD57D0000F324BB /* TEColorCrossfade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E015F1BD57CB500F324BB /* TEColorCrossfade.m */; };
 		1CD47D741BC59471002BB2CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D731BC59471002BB2CB /* main.m */; };
 		1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D761BC59471002BB2CB /* AppDelegate.m */; };
 		1CD47D7F1BC59471002BB2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD47D7E1BC59471002BB2CB /* Assets.xcassets */; };
@@ -24,15 +28,15 @@
 		1C0A08211BC939FB003E7333 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		1C0A08221BC939FB003E7333 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		1C0A08231BC939FB003E7333 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
-		1C9E01481BD579C300F324BB /* TEColorCrossfade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEColorCrossfade.h; sourceTree = SOURCE_ROOT; };
-		1C9E01491BD579C300F324BB /* TEColorCrossfade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEColorCrossfade.m; sourceTree = SOURCE_ROOT; };
-		1C9E014A1BD579C300F324BB /* TESlidingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingButton.h; sourceTree = SOURCE_ROOT; };
-		1C9E014B1BD579C300F324BB /* TESlidingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingButton.m; sourceTree = SOURCE_ROOT; };
-		1C9E014C1BD579C300F324BB /* TESlidingButtonSpecifics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingButtonSpecifics.h; sourceTree = SOURCE_ROOT; };
-		1C9E014D1BD579C300F324BB /* TESlidingButtonSpecifics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingButtonSpecifics.m; sourceTree = SOURCE_ROOT; };
-		1C9E014E1BD579C300F324BB /* TESlidingPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESlidingPageView.h; sourceTree = SOURCE_ROOT; };
-		1C9E014F1BD579C300F324BB /* TESlidingPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESlidingPageView.m; sourceTree = SOURCE_ROOT; };
-		1CD47D6F1BC59471002BB2CB /* TinderPageViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderPageViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9E01551BD57C9900F324BB /* TETinderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETinderButton.h; sourceTree = SOURCE_ROOT; };
+		1C9E01561BD57C9900F324BB /* TETinderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETinderButton.m; sourceTree = SOURCE_ROOT; };
+		1C9E01571BD57C9900F324BB /* TETinderButtonSpecifics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETinderButtonSpecifics.h; sourceTree = SOURCE_ROOT; };
+		1C9E01581BD57C9900F324BB /* TETinderButtonSpecifics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETinderButtonSpecifics.m; sourceTree = SOURCE_ROOT; };
+		1C9E01591BD57C9900F324BB /* TETinderPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETinderPageView.h; sourceTree = SOURCE_ROOT; };
+		1C9E015A1BD57C9900F324BB /* TETinderPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETinderPageView.m; sourceTree = SOURCE_ROOT; };
+		1C9E015E1BD57CB500F324BB /* TEColorCrossfade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEColorCrossfade.h; sourceTree = SOURCE_ROOT; };
+		1C9E015F1BD57CB500F324BB /* TEColorCrossfade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEColorCrossfade.m; sourceTree = SOURCE_ROOT; };
+		1CD47D6F1BC59471002BB2CB /* TETinderPageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TETinderPageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD47D731BC59471002BB2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CD47D751BC59471002BB2CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CD47D761BC59471002BB2CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,7 +69,7 @@
 		1CD47D661BC59471002BB2CB = {
 			isa = PBXGroup;
 			children = (
-				1CD47D711BC59471002BB2CB /* TinderPageView */,
+				1CD47D711BC59471002BB2CB /* TETinderPageViewDemo */,
 				1CD47D701BC59471002BB2CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,32 +77,31 @@
 		1CD47D701BC59471002BB2CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CD47D6F1BC59471002BB2CB /* TinderPageViewExample.app */,
+				1CD47D6F1BC59471002BB2CB /* TETinderPageViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CD47D711BC59471002BB2CB /* TinderPageView */ = {
+		1CD47D711BC59471002BB2CB /* TETinderPageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				1CD47D751BC59471002BB2CB /* AppDelegate.h */,
 				1CD47D761BC59471002BB2CB /* AppDelegate.m */,
-				1C9E014E1BD579C300F324BB /* TESlidingPageView.h */,
-				1C9E014F1BD579C300F324BB /* TESlidingPageView.m */,
-				1C9E014A1BD579C300F324BB /* TESlidingButton.h */,
-				1C9E014B1BD579C300F324BB /* TESlidingButton.m */,
-				1C9E014C1BD579C300F324BB /* TESlidingButtonSpecifics.h */,
-				1C9E014D1BD579C300F324BB /* TESlidingButtonSpecifics.m */,
-				1C9E01481BD579C300F324BB /* TEColorCrossfade.h */,
-				1C9E01491BD579C300F324BB /* TEColorCrossfade.m */,
+				1C9E01551BD57C9900F324BB /* TETinderButton.h */,
+				1C9E01561BD57C9900F324BB /* TETinderButton.m */,
+				1C9E01571BD57C9900F324BB /* TETinderButtonSpecifics.h */,
+				1C9E01581BD57C9900F324BB /* TETinderButtonSpecifics.m */,
+				1C9E01591BD57C9900F324BB /* TETinderPageView.h */,
+				1C9E015A1BD57C9900F324BB /* TETinderPageView.m */,
+				1C9E015E1BD57CB500F324BB /* TEColorCrossfade.h */,
+				1C9E015F1BD57CB500F324BB /* TEColorCrossfade.m */,
 				1CAB53D21BC6EEBB003CC4B6 /* icons */,
 				1CD47D7E1BC59471002BB2CB /* Assets.xcassets */,
 				1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */,
 				1CD47D831BC59471002BB2CB /* Info.plist */,
 				1CD47D721BC59471002BB2CB /* Supporting Files */,
 			);
-			name = TinderPageView;
-			path = TinderPageViewExample;
+			path = TETinderPageViewDemo;
 			sourceTree = "<group>";
 		};
 		1CD47D721BC59471002BB2CB /* Supporting Files */ = {
@@ -112,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CD47D6E1BC59471002BB2CB /* TinderPageViewExample */ = {
+		1CD47D6E1BC59471002BB2CB /* TETinderPageViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageViewExample" */;
+			buildConfigurationList = 1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TETinderPageViewDemo" */;
 			buildPhases = (
 				1CD47D6B1BC59471002BB2CB /* Sources */,
 				1CD47D6C1BC59471002BB2CB /* Frameworks */,
@@ -124,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = TinderPageViewExample;
+			name = TETinderPageViewDemo;
 			productName = TinderPageView;
-			productReference = 1CD47D6F1BC59471002BB2CB /* TinderPageViewExample.app */;
+			productReference = 1CD47D6F1BC59471002BB2CB /* TETinderPageViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageViewExample" */;
+			buildConfigurationList = 1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TETinderPageViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -156,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CD47D6E1BC59471002BB2CB /* TinderPageViewExample */,
+				1CD47D6E1BC59471002BB2CB /* TETinderPageViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -181,12 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C9E01521BD579C300F324BB /* TESlidingButtonSpecifics.m in Sources */,
-				1C9E01531BD579C300F324BB /* TESlidingPageView.m in Sources */,
+				1C9E01611BD57D0000F324BB /* TETinderButton.h in Sources */,
+				1C9E01621BD57D0000F324BB /* TETinderButton.m in Sources */,
+				1C9E01631BD57D0000F324BB /* TETinderButtonSpecifics.h in Sources */,
+				1C9E01641BD57D0000F324BB /* TETinderButtonSpecifics.m in Sources */,
+				1C9E01651BD57D0000F324BB /* TETinderPageView.h in Sources */,
+				1C9E01661BD57D0000F324BB /* TETinderPageView.m in Sources */,
+				1C9E01671BD57D0000F324BB /* TEColorCrossfade.h in Sources */,
+				1C9E01681BD57D0000F324BB /* TEColorCrossfade.m in Sources */,
 				1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */,
-				1C9E01501BD579C300F324BB /* TEColorCrossfade.m in Sources */,
 				1CD47D741BC59471002BB2CB /* main.m in Sources */,
-				1C9E01511BD579C300F324BB /* TESlidingButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +297,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/TinderPageViewExample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TETinderPageViewDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TimothyEdwards.TinderPageView;
-				PRODUCT_NAME = TinderPageViewExample;
+				PRODUCT_NAME = TETinderPageViewDemo;
 			};
 			name = Debug;
 		};
@@ -302,18 +309,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/TinderPageViewExample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TETinderPageViewDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TimothyEdwards.TinderPageView;
-				PRODUCT_NAME = TinderPageViewExample;
+				PRODUCT_NAME = TETinderPageViewDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TinderPageViewExample" */ = {
+		1CD47D6A1BC59471002BB2CB /* Build configuration list for PBXProject "TETinderPageViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CD47D841BC59471002BB2CB /* Debug */,
@@ -322,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TinderPageViewExample" */ = {
+		1CD47D861BC59471002BB2CB /* Build configuration list for PBXNativeTarget "TETinderPageViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CD47D871BC59471002BB2CB /* Debug */,

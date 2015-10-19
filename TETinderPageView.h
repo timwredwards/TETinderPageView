@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TESlidingButtonSpecifics.h"
+#import "TETinderButtonSpecifics.h"
 
-@interface TESlidingPageView : UIViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIScrollViewDelegate>
+@interface TETinderPageView : UIViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIScrollViewDelegate>
 
 
 @property (strong, nonatomic, readonly) UIPageViewController *PVC;
@@ -19,11 +19,11 @@
 @property (strong, nonatomic, readonly) NSArray *viewControllers;
 @property (strong, nonatomic, readonly) NSArray *buttons;
 
-@property (strong, nonatomic, readonly) TESlidingButtonSpecifics *offscreenLeftButtonSpecifics;
-@property (strong, nonatomic, readonly) TESlidingButtonSpecifics *leftButtonSpecifics;
-@property (strong, nonatomic, readonly) TESlidingButtonSpecifics *centerButtonSpecifics;
-@property (strong, nonatomic, readonly) TESlidingButtonSpecifics *rightButtonSpecifics;
-@property (strong, nonatomic, readonly) TESlidingButtonSpecifics *offscreenRightButtonSpecifics;
+@property (strong, nonatomic, readonly) TETinderButtonSpecifics *offscreenLeftButtonSpecifics;
+@property (strong, nonatomic, readonly) TETinderButtonSpecifics *leftButtonSpecifics;
+@property (strong, nonatomic, readonly) TETinderButtonSpecifics *centerButtonSpecifics;
+@property (strong, nonatomic, readonly) TETinderButtonSpecifics *rightButtonSpecifics;
+@property (strong, nonatomic, readonly) TETinderButtonSpecifics *offscreenRightButtonSpecifics;
 
 @property (nonatomic) NSUInteger selectedIndex;
 

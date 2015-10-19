@@ -6,9 +6,9 @@
 //  Copyright © 2015 Timothy Edwards. All rights reserved.
 //
 
-#import "TESlidingButton.h"
+#import "TETinderButton.h"
 
-@implementation TESlidingButton
+@implementation TETinderButton
 
 -(void)setButtonSize:(CGSize)iconSize{
     [self setFrame:CGRectMake(self.frame.origin.x, self.frame.origin.y, iconSize.width, iconSize.height)];

@@ -6,13 +6,13 @@
 //  CopyLOL © 2015 Timothy Edwards. All rights reserved.
 //
 
-#import "TESlidingPageView.h"
+#import "TETinderPageView.h"
 
-#import "TESlidingButton.h"
+#import "TETinderButton.h"
 
 #import "TEColorCrossfade.h"
 
-@implementation TESlidingPageView
+@implementation TETinderPageView
 
 - (instancetype)initWithViewControllers:(NSArray *)viewControllers buttonImages:(NSArray *)buttonImages {
     self = [super init];
@@ -44,7 +44,7 @@
     NSMutableArray *buttonsTemp = [[NSMutableArray alloc] init];
     [buttonImages enumerateObjectsUsingBlock:^(UIImage *buttonImage, NSUInteger idx, BOOL * _Nonnull stop) {
         if ([buttonImage isKindOfClass:[UIImage class]]) {
-            TESlidingButton *button = [TESlidingButton buttonWithType:UIButtonTypeRoundedRect];
+            TETinderButton *button = [TETinderButton buttonWithType:UIButtonTypeRoundedRect];
             [button setImage:buttonImage forState:UIControlStateNormal];
             [button setTag:idx];
             [button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
@@ -73,11 +73,11 @@
     _navigationBar = [[UIView alloc] init];
     _divider = [[UIView alloc] init];
     
-    _offscreenLeftButtonSpecifics = [[TESlidingButtonSpecifics alloc] init];
-    _leftButtonSpecifics = [[TESlidingButtonSpecifics alloc] init];
-    _centerButtonSpecifics = [[TESlidingButtonSpecifics alloc] init];
-    _rightButtonSpecifics = [[TESlidingButtonSpecifics alloc] init];
-    _offscreenRightButtonSpecifics = [[TESlidingButtonSpecifics alloc] init];
+    _offscreenLeftButtonSpecifics = [[TETinderButtonSpecifics alloc] init];
+    _leftButtonSpecifics = [[TETinderButtonSpecifics alloc] init];
+    _centerButtonSpecifics = [[TETinderButtonSpecifics alloc] init];
+    _rightButtonSpecifics = [[TETinderButtonSpecifics alloc] init];
+    _offscreenRightButtonSpecifics = [[TETinderButtonSpecifics alloc] init];
 }
 
 - (void)viewDidLoad {
@@ -130,7 +130,7 @@
 
 -(void)processButtons{
     // buttons
-    [_buttons enumerateObjectsUsingBlock:^(TESlidingButton *button, NSUInteger idx, BOOL * _Nonnull stop) {
+    [_buttons enumerateObjectsUsingBlock:^(TETinderButton *button, NSUInteger idx, BOOL * _Nonnull stop) {
         [_navigationBar addSubview:button];
         if (idx == _selectedIndex) {
             [button setButtonSize:_centerButtonSpecifics.size];
@@ -184,7 +184,7 @@
     float distanceScrolled = scrollView.contentOffset.x / self.view.frame.size.width;
     distanceScrolled--;
     
-    [_buttons enumerateObjectsUsingBlock:^(TESlidingButton *button, NSUInteger idx, BOOL * _Nonnull stop) {
+    [_buttons enumerateObjectsUsingBlock:^(TETinderButton *button, NSUInteger idx, BOOL * _Nonnull stop) {
         
         if ((int)idx == (int)_selectedIndex) { // disable center button
             [button setUserInteractionEnabled:NO];
@@ -214,9 +214,9 @@
     }];
 }
 
--(void)processSlidingButton:(TESlidingButton*)button
-          previousSpecifics:(TESlidingButtonSpecifics*)previousSpecifics
-              nextSpecifics:(TESlidingButtonSpecifics*)nextSpecifics
+-(void)processSlidingButton:(TETinderButton*)button
+          previousSpecifics:(TETinderButtonSpecifics*)previousSpecifics
+              nextSpecifics:(TETinderButtonSpecifics*)nextSpecifics
            distanceScrolled:(float)distanceScrolled{
     
     float distanceScrolledUnsigned = fabs(distanceScrolled);
@@ -250,7 +250,7 @@
     return _viewControllers[index+1];
 }
 
--(void)buttonPressed:(TESlidingButton*)sender{
+-(void)buttonPressed:(TETinderButton*)sender{
     NSUInteger index = sender.tag;
     UIViewController *vc = [_viewControllers objectAtIndex:index];
     UIPageViewControllerNavigationDirection direction;

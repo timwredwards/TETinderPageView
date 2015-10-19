@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TESlidingButtonSpecifics : NSObject
+@interface TETinderButtonSpecifics : NSObject
 
 @property (retain, nonatomic) UIColor *color;
 @property (nonatomic) CGPoint position;

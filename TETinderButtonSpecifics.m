@@ -6,9 +6,9 @@
 //  Copyright © 2015 Timothy Edwards. All rights reserved.
 //
 
-#import "TESlidingButtonSpecifics.h"
+#import "TETinderButtonSpecifics.h"
 
-@implementation TESlidingButtonSpecifics
+@implementation TETinderButtonSpecifics
 
 - (instancetype)init
 {
