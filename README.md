@@ -2,16 +2,17 @@
 
 <h3>Overview</h3>
 This is the public repo for TETinderPageView, an emulation of the page-view style controller used in Tinder. 
-
-Examples:
 <br>
 <br>
 ![](img/demo.gif)
 
 <h3>Installation</h3>
-This control can be easily installed to a project using [Cocoapods](https://cocoapods.org). Simply add ```TETinderPageView``` to your .podfile.
+This control can be easily installed to a project using the amazing [Cocoapods](https://cocoapods.org). Simply add this line to your podfile:
+<br>
+<br>
+ ```pod 'TETinderPageView'```
 
-Alternatively you can install manually by downloading or cloning the repo and dragging the files in the lib directory to your project, and adding the files to your target.
+Alternatively, you can install manually by downloading or cloning the repo and add the files in the lib directory to your project.
 
 <h3>Usage</h3>
 
