@@ -29,7 +29,7 @@
     [button setBackgroundColor:[UIColor blackColor]];
     [button setTitle:@"Go To Page 3" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
-    [page1.view addSubview:button];
+//    [page1.view addSubview:button];
     
     UIViewController *page2 = [[UIViewController alloc] init];
     [page2.view setBackgroundColor:[UIColor orangeColor]];
