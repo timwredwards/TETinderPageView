@@ -10,32 +10,20 @@
 		1C0A08241BC939FB003E7333 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08211BC939FB003E7333 /* 2.png */; settings = {ASSET_TAGS = (); }; };
 		1C0A08251BC939FB003E7333 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08221BC939FB003E7333 /* 1.png */; settings = {ASSET_TAGS = (); }; };
 		1C0A08261BC939FB003E7333 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A08231BC939FB003E7333 /* 0.png */; settings = {ASSET_TAGS = (); }; };
-		1C9E01611BD57D0000F324BB /* TETinderButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01551BD57C9900F324BB /* TETinderButton.h */; };
-		1C9E01621BD57D0000F324BB /* TETinderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01561BD57C9900F324BB /* TETinderButton.m */; };
-		1C9E01631BD57D0000F324BB /* TETinderButtonSpecifics.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01571BD57C9900F324BB /* TETinderButtonSpecifics.h */; };
-		1C9E01641BD57D0000F324BB /* TETinderButtonSpecifics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01581BD57C9900F324BB /* TETinderButtonSpecifics.m */; };
-		1C9E01651BD57D0000F324BB /* TETinderPageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E01591BD57C9900F324BB /* TETinderPageView.h */; };
-		1C9E01661BD57D0000F324BB /* TETinderPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E015A1BD57C9900F324BB /* TETinderPageView.m */; };
-		1C9E01671BD57D0000F324BB /* TEColorCrossfade.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E015E1BD57CB500F324BB /* TEColorCrossfade.h */; };
-		1C9E01681BD57D0000F324BB /* TEColorCrossfade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E015F1BD57CB500F324BB /* TEColorCrossfade.m */; };
 		1CD47D741BC59471002BB2CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D731BC59471002BB2CB /* main.m */; };
 		1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD47D761BC59471002BB2CB /* AppDelegate.m */; };
 		1CD47D7F1BC59471002BB2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD47D7E1BC59471002BB2CB /* Assets.xcassets */; };
 		1CD47D821BC59471002BB2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */; };
+		1CFC9C901BD58946002191E7 /* TEColorCrossfade.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC9C891BD58946002191E7 /* TEColorCrossfade.m */; settings = {ASSET_TAGS = (); }; };
+		1CFC9C911BD58946002191E7 /* TETinderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC9C8B1BD58946002191E7 /* TETinderButton.m */; settings = {ASSET_TAGS = (); }; };
+		1CFC9C921BD58946002191E7 /* TETinderButtonSpecifics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC9C8D1BD58946002191E7 /* TETinderButtonSpecifics.m */; settings = {ASSET_TAGS = (); }; };
+		1CFC9C931BD58946002191E7 /* TETinderPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC9C8F1BD58946002191E7 /* TETinderPageView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C0A08211BC939FB003E7333 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		1C0A08221BC939FB003E7333 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		1C0A08231BC939FB003E7333 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
-		1C9E01551BD57C9900F324BB /* TETinderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETinderButton.h; sourceTree = SOURCE_ROOT; };
-		1C9E01561BD57C9900F324BB /* TETinderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETinderButton.m; sourceTree = SOURCE_ROOT; };
-		1C9E01571BD57C9900F324BB /* TETinderButtonSpecifics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETinderButtonSpecifics.h; sourceTree = SOURCE_ROOT; };
-		1C9E01581BD57C9900F324BB /* TETinderButtonSpecifics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETinderButtonSpecifics.m; sourceTree = SOURCE_ROOT; };
-		1C9E01591BD57C9900F324BB /* TETinderPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETinderPageView.h; sourceTree = SOURCE_ROOT; };
-		1C9E015A1BD57C9900F324BB /* TETinderPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETinderPageView.m; sourceTree = SOURCE_ROOT; };
-		1C9E015E1BD57CB500F324BB /* TEColorCrossfade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEColorCrossfade.h; sourceTree = SOURCE_ROOT; };
-		1C9E015F1BD57CB500F324BB /* TEColorCrossfade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEColorCrossfade.m; sourceTree = SOURCE_ROOT; };
 		1CD47D6F1BC59471002BB2CB /* TETinderPageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TETinderPageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD47D731BC59471002BB2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CD47D751BC59471002BB2CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +31,14 @@
 		1CD47D7E1BC59471002BB2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD47D811BC59471002BB2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CD47D831BC59471002BB2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFC9C881BD58946002191E7 /* TEColorCrossfade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEColorCrossfade.h; path = lib/TEColorCrossfade.h; sourceTree = SOURCE_ROOT; };
+		1CFC9C891BD58946002191E7 /* TEColorCrossfade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TEColorCrossfade.m; path = lib/TEColorCrossfade.m; sourceTree = SOURCE_ROOT; };
+		1CFC9C8A1BD58946002191E7 /* TETinderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TETinderButton.h; path = lib/TETinderButton.h; sourceTree = SOURCE_ROOT; };
+		1CFC9C8B1BD58946002191E7 /* TETinderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TETinderButton.m; path = lib/TETinderButton.m; sourceTree = SOURCE_ROOT; };
+		1CFC9C8C1BD58946002191E7 /* TETinderButtonSpecifics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TETinderButtonSpecifics.h; path = lib/TETinderButtonSpecifics.h; sourceTree = SOURCE_ROOT; };
+		1CFC9C8D1BD58946002191E7 /* TETinderButtonSpecifics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TETinderButtonSpecifics.m; path = lib/TETinderButtonSpecifics.m; sourceTree = SOURCE_ROOT; };
+		1CFC9C8E1BD58946002191E7 /* TETinderPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TETinderPageView.h; path = lib/TETinderPageView.h; sourceTree = SOURCE_ROOT; };
+		1CFC9C8F1BD58946002191E7 /* TETinderPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TETinderPageView.m; path = lib/TETinderPageView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +83,14 @@
 			children = (
 				1CD47D751BC59471002BB2CB /* AppDelegate.h */,
 				1CD47D761BC59471002BB2CB /* AppDelegate.m */,
-				1C9E01551BD57C9900F324BB /* TETinderButton.h */,
-				1C9E01561BD57C9900F324BB /* TETinderButton.m */,
-				1C9E01571BD57C9900F324BB /* TETinderButtonSpecifics.h */,
-				1C9E01581BD57C9900F324BB /* TETinderButtonSpecifics.m */,
-				1C9E01591BD57C9900F324BB /* TETinderPageView.h */,
-				1C9E015A1BD57C9900F324BB /* TETinderPageView.m */,
-				1C9E015E1BD57CB500F324BB /* TEColorCrossfade.h */,
-				1C9E015F1BD57CB500F324BB /* TEColorCrossfade.m */,
+				1CFC9C881BD58946002191E7 /* TEColorCrossfade.h */,
+				1CFC9C891BD58946002191E7 /* TEColorCrossfade.m */,
+				1CFC9C8A1BD58946002191E7 /* TETinderButton.h */,
+				1CFC9C8B1BD58946002191E7 /* TETinderButton.m */,
+				1CFC9C8C1BD58946002191E7 /* TETinderButtonSpecifics.h */,
+				1CFC9C8D1BD58946002191E7 /* TETinderButtonSpecifics.m */,
+				1CFC9C8E1BD58946002191E7 /* TETinderPageView.h */,
+				1CFC9C8F1BD58946002191E7 /* TETinderPageView.m */,
 				1CAB53D21BC6EEBB003CC4B6 /* icons */,
 				1CD47D7E1BC59471002BB2CB /* Assets.xcassets */,
 				1CD47D801BC59471002BB2CB /* LaunchScreen.storyboard */,
@@ -184,15 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C9E01611BD57D0000F324BB /* TETinderButton.h in Sources */,
-				1C9E01621BD57D0000F324BB /* TETinderButton.m in Sources */,
-				1C9E01631BD57D0000F324BB /* TETinderButtonSpecifics.h in Sources */,
-				1C9E01641BD57D0000F324BB /* TETinderButtonSpecifics.m in Sources */,
-				1C9E01651BD57D0000F324BB /* TETinderPageView.h in Sources */,
-				1C9E01661BD57D0000F324BB /* TETinderPageView.m in Sources */,
-				1C9E01671BD57D0000F324BB /* TEColorCrossfade.h in Sources */,
-				1C9E01681BD57D0000F324BB /* TEColorCrossfade.m in Sources */,
+				1CFC9C931BD58946002191E7 /* TETinderPageView.m in Sources */,
+				1CFC9C911BD58946002191E7 /* TETinderButton.m in Sources */,
 				1CD47D771BC59471002BB2CB /* AppDelegate.m in Sources */,
+				1CFC9C901BD58946002191E7 /* TEColorCrossfade.m in Sources */,
+				1CFC9C921BD58946002191E7 /* TETinderButtonSpecifics.m in Sources */,
 				1CD47D741BC59471002BB2CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
