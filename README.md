@@ -18,11 +18,11 @@ Alternatively, you can install manually by downloading or cloning the repo and a
 
 <h3>Requirements</h3>
 
-Supports iOS 8.0+
+Supports iOS 8.0+<br>
 Requires ARC to be enabled
 
 <h3>Contributions</h3>
-If you encounter problems or have a feature request please open an issue! We also welcome pull requests, so if you feel like contributing get involved!
+If you encounter problems or have a feature request please open an issue! We welcome pull requests, so if you feel like contributing get involved!
 
 <h3>Author</h3>
-Developed and maintained by Tim Edwards ([@timwredwards](https://twitter.com/timwredwards))
+Developed and maintained by ([Tim Edwards](http://timwredwards.com)) ([@timwredwards](https://twitter.com/timwredwards))
