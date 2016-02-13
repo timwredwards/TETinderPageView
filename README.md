@@ -7,7 +7,7 @@ This is the public repo for TETinderPageView, an emulation of the page-view styl
 ![](/img/demo.gif)
 
 <h3>Installation</h3>
-The controller can be easily installed to a project using the amazing [Cocoapods](https://cocoapods.org). Simply add this line to your podfile and run ```pod install```:
+The controller can be easily installed to a project using the amazing [CocoaPods](https://cocoapods.org). Simply add this line to your podfile and run ```pod install```:
 <br>
 <br>
  ```pod 'TETinderPageView'```
