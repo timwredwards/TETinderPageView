@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "Timothy Edwards" => "timwredwards@gmail.com" }
+  s.author             = { "Timothy Edwards" }
   s.social_media_url   = "http://twitter.com/timwredwards"
 
   s.platform     = :ios
